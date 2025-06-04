@@ -1,1 +1,22 @@
 // app global css in SCSS form
+@font-face {
+  font-family: 'pokemonFont';
+  src: url('/fonts/Pokemon_Solid.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'pokemonFont';
+  src: url('/fonts/Pokemon_Hollow.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+// body {
+//   font-family: 'pokemonFont', sans-serif;
+// }
+
+// .q-btn {
+//   padding-bottom: 5%;
+// }
