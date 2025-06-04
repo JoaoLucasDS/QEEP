@@ -75,7 +75,7 @@
     </div>
 
     <div class="row q-ma-md q-gutter-x-md" v-if="gameState === 'playing'">
-      <q-btn @click="revealAnswer" label="Pular" :disable="revealed" color="warning" flat />
+      <q-btn rounded @click="revealAnswer" label="Pular" :disable="revealed" color="warning" flat />
       <q-btn
         unelevated
         rounded
@@ -89,8 +89,8 @@
     <div v-if="gameState === 'gameOver'" class="column items-center">
       <div class="text-h4 q-mb-md">Fim de Jogo!</div>
       <div class="text-h5">Pontuação final: {{ score }}</div>
-      <div class="text-h6 q-mt-md">{{ finalMessage }}</div>
-      <q-btn label="Jogar Novamente" @click="startGame" color="primary" class="q-mt-lg" />
+      <div class="text-h6 q-my-md">{{ finalMessage }}</div>
+      <q-btn unelevated rounded label="Jogar Novamente" @click="startGame" color="primary" />
     </div>
   </div>
 </template>

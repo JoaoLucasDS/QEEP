@@ -2,10 +2,10 @@
   <q-layout view="hHh Lpr lFf">
     <q-header>
       <q-toolbar>
-        <q-toolbar-title style="font-family: 'pokemonFont', sans-serif"
+        <q-toolbar-title class="q-pb-sm" style="font-family: 'pokemonFont', sans-serif"
           >Quem é esse Pokemon?</q-toolbar-title
         >
-        <div>Quasar v{{ $q.version }}</div>
+        <div class="q-pb-sm" style="font-family: 'pokemonFont', sans-serif">By João Dantas</div>
       </q-toolbar>
     </q-header>
 
